@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/settings"
-        android:title="Settings" >
-        <!-- "file" submenu -->
-        <menu>
-            <item android:id="@+id/background"
-                android:title="Background" />
-            <item android:id="@+id/energy"
-                android:title="Energy" />
-        </menu>
-    </item>
-    <item android:id="@+id/main_page"
-        android:title="Main Page"/>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="Home"/>
+    <item
+        android:id="@+id/messages"
+        android:title="Messages"/>
+    <item
+        android:id="@+id/about"
+        android:title="About"/>
 </menu>

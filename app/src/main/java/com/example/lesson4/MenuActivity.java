@@ -21,10 +21,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
 
         switch (item.getItemId()) {
-            case R.id.settings:
+            case R.id.home:
                 Toast.makeText(this,"Setting menu clicked",Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.main_page:
+            case R.id.messages:
+                Toast.makeText(this,"Main Page menu clicked",Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.about:
                 Toast.makeText(this,"Main Page menu clicked",Toast.LENGTH_SHORT).show();
                 break;
             default:
